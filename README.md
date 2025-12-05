@@ -34,17 +34,22 @@ Everything is automated. Everything is backed up. Everything just works.
 
 2. **Run the setup scripts**
    ```bash
-   chmod +x ghostty-setup-catppuccin.sh terminal-aesthetic-setup.sh
-   ./ghostty-setup-catppuccin.sh
-   ./terminal-aesthetic-setup.sh
+   chmod +x install.sh
+   ./install
    ```
+      This script manually does the follwing:
+      ```bash
+      chmod +x ghostty-setup-catppuccin.sh terminal-aesthetic-setup.sh
+      ./ghostty-setup-catppuccin.sh
+      ./terminal-aesthetic-setup.sh
+      ```
 
-3. **Reload your shell**
+4. **Reload your shell**
    ```bash
    source ~/.zshrc
    ```
 
-4. **Enjoy your beautiful terminal**
+5. **Enjoy your beautiful terminal**
    ```bash
    neofetch
    ll
