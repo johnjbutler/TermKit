@@ -5,10 +5,8 @@
 Run these in order:
 
 ```bash
-chmod +x ghostty-setup-catppuccin.sh terminal-aesthetic-setup.sh
-./ghostty-setup-catppuccin.sh
-./terminal-aesthetic-setup.sh
-source ~/.zshrc
+chmod +x install.sh
+./install.sh
 ```
 
 ## Most Used Commands
